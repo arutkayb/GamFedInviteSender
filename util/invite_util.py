@@ -1,0 +1,15 @@
+def get_eng_word(word):
+    word = word.replace("İ","I")
+    word = word.replace("Ö","O")
+    word = word.replace("Ü","U")
+    word = word.replace("ö","o")
+    word = word.replace("ü","u")
+    word = word.replace("Ğ","G")
+    word = word.replace("ğ","g")
+    word = word.replace("ş","s")
+    word = word.replace("Ş","S")
+    word = word.replace("ç","c")
+    word = word.replace("Ç","C")
+    word = word.replace("ı","i")
+    word = word.replace(" ", "_")
+    return word
